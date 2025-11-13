@@ -97,7 +97,7 @@ cp .env.example .env
 # PORT=8080
 # SPOTIFY_CLIENT_ID=your_actual_client_id
 # SPOTIFY_CLIENT_SECRET=your_actual_client_secret
-# SPOTIFY_REDIRECT_URI=http://localhost:8080/callback
+# SPOTIFY_REDIRECT_URI=http://127.0.0.1:8080/callback
 # DATABASE_PATH=./music.db
 
 # Install Go dependencies

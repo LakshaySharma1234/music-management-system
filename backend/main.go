@@ -6,6 +6,8 @@ import (
 	"music-management-system/handlers"
 	"music-management-system/services"
 	"os"
+	"path/filepath"
+	"runtime"
 
 	"github.com/gin-contrib/cors"
 	"github.com/gin-gonic/gin"
@@ -13,9 +15,13 @@ import (
 )
 
 func main() {
-	// Load environment variables
-	if err := godotenv.Load(); err != nil {
-		log.Println("No .env file found, using environment variables")
+	// Get the directory of the current file
+	_, b, _, _ := runtime.Caller(0)
+	basepath := filepath.Dir(b)
+
+	// Load environment variables from .env file in the same directory
+	if err := godotenv.Load(filepath.Join(basepath, ".env")); err != nil {
+		log.Println("No .env file found, using environment variables from OS")
 	}
 
 	// Initialize database
