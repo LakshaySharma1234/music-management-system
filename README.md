@@ -6,13 +6,13 @@ A full-stack music management application that allows you to import songs from S
 
 ## Features
 
-✨ **Spotify Integration**: Search and import songs directly from Spotify
-🎵 **Music Library**: Organize your favorite songs in one place
-⭐ **Rating System**: Rate songs from 0-10
-📝 **Personal Reviews**: Write summaries about why you like each song
-🎨 **Genre Organization**: Categorize songs by genre and filter them
-📊 **Statistics Dashboard**: View your music collection statistics
-🎨 **Modern UI**: Beautiful, responsive design with gradient themes
+ **Spotify Integration**: Search and import songs directly from Spotify
+ **Music Library**: Organize your favorite songs in one place
+ **Rating System**: Rate songs from 0-10
+ **Personal Reviews**: Write summaries about why you like each song
+ **Genre Organization**: Categorize songs by genre and filter them
+ **Statistics Dashboard**: View your music collection statistics
+ **Modern UI**: Beautiful, responsive design with gradient themes
 
 ## Tech Stack
 
@@ -280,5 +280,5 @@ If you encounter any issues or have questions:
 
 ---
 
-Made with ❤️ for music lovers
+
 
