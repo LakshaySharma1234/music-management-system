@@ -37,7 +37,7 @@ func main() {
 
 	// CORS middleware
 	router.Use(cors.New(cors.Config{
-		AllowOrigins:     []string{"http://localhost:5173", "http://localhost:5174"},
+		AllowOrigins:     []string{"http://localhost:5173", "http://localhost:5174", "https://music-management-system123-ak0zax9p1-srylakshay-6333s-projects.vercel.app/"},
 		AllowMethods:     []string{"GET", "POST", "PUT", "PATCH", "DELETE", "OPTIONS"},
 		AllowHeaders:     []string{"Origin", "Content-Type", "Accept", "Authorization"},
 		ExposeHeaders:    []string{"Content-Length"},
